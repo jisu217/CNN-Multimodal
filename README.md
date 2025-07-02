@@ -1,4 +1,4 @@
-# **Cnn-Monitoring**
+# **CNN-Monitoring**
 
 성　　과: 인공지능연구 게재  
 지도교수: Jinho HAN  
