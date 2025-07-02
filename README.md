@@ -1,4 +1,4 @@
-# **A Study on Driver State Recognition Using CNN-based Multimodal Multi-input Learning**
+# **Cnn-Monitoring**
 
 성　　과: 인공지능연구 게재  
 지도교수: Jinho HAN  
