@@ -72,9 +72,8 @@
 | Single-input               | Driver State (자세)                   |       68.6%       |
 | Dual-input                 | Driver Face + State (얼굴+자세)       |       75.8%       |
 | **Triple-input (제안 모델)**   | **Face + State + Sound (얼굴+자세+소리)** |     **99.9%**     |
->
-#### 학습 과정 (Training Process)
 
+#### 학습 과정 (Training Process)
 <img src="images/training_graphs.png" alt="Training Results" width="700"/>
 <p align="center">멀티모달(Triple-input) 학습 시, 과적합(overfitting) 없이 안정적으로 높은 테스트 정확도를 달성했습니다.</p>
 
