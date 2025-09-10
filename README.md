@@ -59,6 +59,7 @@
 6.  **불안 (Anxiety)**: 긴장된 표정과 목소리
 
 <img src="images/dataset_examples.png" alt="Dataset Examples" width="700"/>
+
 ---
 
 ## 4. 주요 결과 (Results)
@@ -71,7 +72,7 @@
 | Single-input               | Driver State (자세)                   |       68.6%       |
 | Dual-input                 | Driver Face + State (얼굴+자세)       |       75.8%       |
 | **Triple-input (제안 모델)**   | **Face + State + Sound (얼굴+자세+소리)** |     **99.9%**     |
-
+>
 #### 학습 과정 (Training Process)
 
 <img src="images/training_graphs.png" alt="Training Results" width="700"/>
