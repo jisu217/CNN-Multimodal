@@ -9,12 +9,12 @@
 ---
 
 ## 목차 (Table of Contents)
-1. [프로젝트 소개 (About The Project)](#-프로젝트-소개)
-2. [모델 아키텍처 (Model Architecture)](#-모델-아키텍처)
-3. [데이터셋 (Dataset)](#-데이터셋)
-4. [주요 결과 (Results)](#-주요-결과)
-5. [팀원 및 역할 (Team & Roles)](#-팀원-및-역할)
-6. [학술 발표 (Publication)](#-학술-발표)
+1. [프로젝트 소개 (About The Project)](#1-프로젝트-소개)
+2. [모델 아키텍처 (Model Architecture)](#2-모델-아키텍처)
+3. [데이터셋 (Dataset)](#3-데이터셋)
+4. [주요 결과 (Results)](#4-주요-결과)
+5. [팀원 및 역할 (Team & Roles)](#5-팀원-및-역할)
+6. [학술 발표 (Publication)](#6-학술-발표)
 
 ---
 
