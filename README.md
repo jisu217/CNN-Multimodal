@@ -105,4 +105,5 @@
 | **승인일** | 2025년 3월 5일 |
 
 <img src="images/acceptance_certificate.png" alt="KJAI Acceptance Certificate" width="500"/>
+
 ---
