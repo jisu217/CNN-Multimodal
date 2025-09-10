@@ -39,11 +39,6 @@
 
 저희가 제안하는 모델은 3개의 입력 스트림을 가진 CNN 구조입니다. 각 데이터(얼굴, 자세, 소리)는 별도의 컨볼루션 레이어를 통과한 후, 특징(feature)이 하나로 합쳐져(Concatenate) 최종 상태를 분류합니다.
 
-<!-- 
-[사용법]
-아래 이미지는 프로젝트 보고서에 있던 'Figure 1' 입니다.
-이 이미지를 `images` 폴더에 `architecture.png` 라는 이름으로 저장하고, 깃허브에 올리면 아래 코드가 이미지를 보여줍니다.
--->
 ![Model Architecture](images/architecture.png)
 
 ---
@@ -63,11 +58,6 @@
 5.  **분노 (Anger)**: 화를 내는 표정과 목소리
 6.  **불안 (Anxiety)**: 긴장된 표정과 목소리
 
-<!-- 
-[사용법]
-아래 이미지는 프로젝트 보고서에 있던 'Figure 2' 입니다.
-이 이미지를 `images` 폴더에 `dataset_examples.png` 라는 이름으로 저장하고, 깃허브에 올리면 아래 코드가 이미지를 보여줍니다.
--->
 ![Dataset Examples](images/dataset_examples.png)
 
 ---
@@ -84,11 +74,7 @@
 | **Triple-input (제안 모델)**   | **Face + State + Sound (얼굴+자세+소리)** |     **99.9%**     |
 
 #### 학습 과정 (Training Process)
-<!-- 
-[사용법]
-아래 이미지는 프로젝트 보고서에 있던 'Figure 3' 입니다.
-이 이미지를 `images` 폴더에 `training_graphs.png` 라는 이름으로 저장하고, 깃허브에 올리면 아래 코드가 이미지를 보여줍니다.
--->
+
 ![Training Results](images/training_graphs.png)
 <p align="center">멀티모달(Triple-input) 학습 시, 과적합(overfitting) 없이 안정적으로 높은 테스트 정확도를 달성했습니다.</p>
 
@@ -118,4 +104,6 @@
 | **논문 제목** | A study on driver state recognition using CNN-based multimodal multi-input learning |
 | **상태** | **게재 승인 (Accepted)** |
 | **승인일** | 2025년 3월 5일 |
+
+![KJAI Acceptance Certificate](images/acceptance_certificate.png)
 ---
