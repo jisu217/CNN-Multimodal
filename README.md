@@ -1,4 +1,4 @@
-# 🚗 운전자 상태 인식을 위한 CNN 기반 멀티모달 다중 입력 학습 연구
+# 🚘 운전자 상태 인식을 위한 CNN 기반 멀티모달 다중 입력 학습 연구
 ### A Study on Driver State Recognition using CNN-based Multimodal Multi-input Learning
 
 [![Project Status](https://img.shields.io/badge/status-completed-green)](https://shields.io)
