@@ -39,7 +39,7 @@
 
 저희가 제안하는 모델은 3개의 입력 스트림을 가진 CNN 구조입니다. 각 데이터(얼굴, 자세, 소리)는 별도의 컨볼루션 레이어를 통과한 후, 특징(feature)이 하나로 합쳐져(Concatenate) 최종 상태를 분류합니다.
 
-![Model Architecture](images/architecture.png)
+<img src="images/architecture.png" alt="Model Architecture" width="600"/>
 
 ---
 
@@ -58,8 +58,7 @@
 5.  **분노 (Anger)**: 화를 내는 표정과 목소리
 6.  **불안 (Anxiety)**: 긴장된 표정과 목소리
 
-![Dataset Examples](images/dataset_examples.png)
-
+<img src="images/dataset_examples.png" alt="Dataset Examples" width="700"/>
 ---
 
 ## 4. 주요 결과 (Results)
@@ -75,7 +74,7 @@
 
 #### 학습 과정 (Training Process)
 
-![Training Results](images/training_graphs.png)
+<img src="images/training_graphs.png" alt="Training Results" width="700"/>
 <p align="center">멀티모달(Triple-input) 학습 시, 과적합(overfitting) 없이 안정적으로 높은 테스트 정확도를 달성했습니다.</p>
 
 ---
@@ -105,5 +104,5 @@
 | **상태** | **게재 승인 (Accepted)** |
 | **승인일** | 2025년 3월 5일 |
 
-![KJAI Acceptance Certificate](images/acceptance_certificate.png)
+<img src="images/acceptance_certificate.png" alt="KJAI Acceptance Certificate" width="500"/>
 ---
