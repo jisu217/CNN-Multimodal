@@ -4,6 +4,7 @@
 [![Project Status](https://img.shields.io/badge/status-completed-green)](https://shields.io)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+> 한국성서대학교 학생-교수 간 공동 프로젝트 최종 결과물입니다. <br>
 > 운전자의 얼굴, 운전 자세, 주변 소리 데이터를 함께 사용하는 멀티모달(Multimodal) CNN 모델을 통해 운전자의 6가지 상태(정상, 졸음, 기절, 놀람, 분노, 불안)를 99.9%의 높은 정확도로 인식하는 시스템을 제안합니다.
 
 ---
@@ -13,21 +14,20 @@
 2. [모델 아키텍처 (Model Architecture)](#-모델-아키텍처)
 3. [데이터셋 (Dataset)](#-데이터셋)
 4. [주요 결과 (Results)](#-주요-결과)
-5. [시작하기 (Getting Started)](#-시작하기)
-6. [팀원 및 역할 (Team & Roles)](#-팀원-및-역할)
-7. [학술 발표 (Publication)](#-학술-발표)
+5. [팀원 및 역할 (Team & Roles)](#-팀원-및-역할)
+6. [학술 발표 (Publication)](#-학술-발표)
 
 ---
 
 ## 1. 프로젝트 소개 (About The Project)
 
-본 연구는 운전자의 안전을 위해 운전 중 상태를 정확하게 파악하는 것을 목표로 하며 기존 연구들이 얼굴 표정이나 생체 신호 등 단일 데이터에 의존했던 것과 달리 **세 가지 다른 종류의 데이터를 동시에 활용**하는 멀티모달 접근 방식을 채택함
+본 연구는 운전자의 안전을 위해 운전 중 상태를 정확하게 파악하는 것을 목표로 합니다. 기존 연구들이 얼굴 표정이나 생체 신호 등 단일 데이터에 의존했던 것과 달리, 저희는 **세 가지 다른 종류의 데이터를 동시에 활용**하는 멀티모달 접근 방식을 채택했습니다.
 
 *   **Driver Face Image**: 운전자의 얼굴 표정 이미지
 *   **Driver State Image**: 운전자의 상반신 자세 이미지
 *   **Sound Spectrogram**: 운전자의 목소리 및 주변 소리를 변환한 이미지
 
-이러한 데이터를 통해 on-device AI와 같이 간단한 장치에서도 높은 성능을 낼 수 있는 경량화된 CNN 모델을 개발했으며 실험을 통해 **99.9%** 라는 높은 분류 정확도를 달성함
+이러한 데이터를 통해 on-device AI와 같이 간단한 장치에서도 높은 성능을 낼 수 있는 경량화된 CNN 모델을 개발했으며, 실험을 통해 **99.9%** 라는 높은 분류 정확도를 달성했습니다.
 
 ### 주요 기여 (Key Contributions)
 *   얼굴, 자세, 소리 데이터를 동시에 학습하는 **멀티모달 3-input CNN 모델** 제안
@@ -51,7 +51,7 @@
 
 ## 3. 데이터셋 (Dataset)
 
-실험을 위해 총 6개의 클래스로 구성된 18,900개의 이미지 데이터를 자체적으로 생성
+실험을 위해 총 6개의 클래스로 구성된 18,900개의 이미지 데이터를 자체적으로 생성했습니다.
 
 *   **학습 데이터**: 12,600장
 *   **테스트 데이터**: 6,300장
@@ -75,7 +75,7 @@
 
 ## 4. 주요 결과 (Results)
 
-단일 데이터를 사용했을 때보다 여러 데이터를 함께 사용하는 **멀티모달 방식이 월등히 높은 정확도**를 보였으며 특히 3가지 데이터를 모두 사용했을 때 정확도가 **99.9%** 에 도달하며 본 연구의 가설을 성공적으로 증명함
+단일 데이터를 사용했을 때보다 여러 데이터를 함께 사용하는 **멀티모달 방식이 월등히 높은 정확도**를 보였습니다. 특히 3가지 데이터를 모두 사용했을 때 정확도가 **99.9%** 에 도달하며, 본 연구의 가설을 성공적으로 증명했습니다.
 
 | 모델 (Our Multi-input CNN) | 데이터셋 | 정확도 (Accuracy) |
 | -------------------------- | ------------------------------------- | :---------------: |
@@ -95,42 +95,7 @@
 
 ---
 
-## 5. 시작하기 (Getting Started)
-
-이 프로젝트를 로컬 환경에서 실행하려면 아래의 단계를 따라주세요.
-
-### Prerequisites (사전 준비)
-*   Python 3.8+
-*   TensorFlow 또는 PyTorch
-*   기타 필요한 라이브러리
-
-### Installation (설치)
-1.  Git 리포지토리를 복제합니다.
-    ```sh
-    git clone https://github.com/your-username/your-repository-name.git
-    ```
-2.  프로젝트 폴더로 이동합니다.
-    ```sh
-    cd your-repository-name
-    ```
-3.  필요한 패키지를 설치합니다.
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-### 실행 방법 (How to Run)
-1.  모델을 학습시키려면 다음 명령어를 실행하세요.
-    ```sh
-    python train.py --data_path /path/to/dataset
-    ```
-2.  학습된 모델로 예측을 수행하려면 다음 명령어를 실행하세요.
-    ```sh
-    python predict.py --model_path /path/to/model.h5 --image_path /path/to/image.jpg
-    ```
-
----
-
-## 6. 팀원 및 역할 (Team & Roles)
+## 5. 팀원 및 역할 (Team & Roles)
 
 | 이름 (Name) | 역할 (Role) |
 | :---------- | :--------------------------------------------------------- |
@@ -144,10 +109,14 @@
 
 ---
 
-## 7. 학술 발표 (Publication)
+## 6. 학술 발표 (Publication)
 
-*   **투고 학회지**: KJAI (Korean Journal of Artificial Intelligence)
-*   **투고 예정일**: 2025년 2월 4일
+본 연구 결과는 **Korean Journal of Artificial Intelligence (KJAI)** 에 게재 승인되었습니다.
 
+| 항목 | 내용 |
+| :--- | :--- |
+| **게재 학회지** | KJAI (Korean Journal of Artificial Intelligence) |
+| **논문 제목** | A study on driver state recognition using CNN-based multimodal multi-input learning |
+| **상태** | **게재 승인 (Accepted)** |
+| **승인일** | 2025년 3월 5일 |
 ---
-
