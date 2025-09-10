@@ -97,13 +97,13 @@
 
 본 연구 결과는 **Korean Journal of Artificial Intelligence (KJAI)** 에 게재 승인되었습니다.
 
+<img src="images/acceptance_certificate.png" alt="KJAI Acceptance Certificate" width="500"/>
+
 | 항목 | 내용 |
 | :--- | :--- |
 | **게재 학회지** | KJAI (Korean Journal of Artificial Intelligence) |
 | **논문 제목** | A study on driver state recognition using CNN-based multimodal multi-input learning |
 | **상태** | **게재 승인 (Accepted)** |
 | **승인일** | 2025년 3월 5일 |
-
-<img src="images/acceptance_certificate.png" alt="KJAI Acceptance Certificate" width="500"/>
 
 ---
