@@ -4,7 +4,6 @@
 [![Project Status](https://img.shields.io/badge/status-completed-green)](https://shields.io)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-> 한국성서대학교 학생-교수 간 공동 프로젝트 최종 결과물입니다. <br>
 > 운전자의 얼굴, 운전 자세, 주변 소리 데이터를 함께 사용하는 멀티모달(Multimodal) CNN 모델을 통해 운전자의 6가지 상태(정상, 졸음, 기절, 놀람, 분노, 불안)를 99.9%의 높은 정확도로 인식하는 시스템을 제안합니다.
 
 ---
