@@ -1,4 +1,4 @@
-# 🚘 A Study on Driver State Recognition using CNN-based Multimodal Multi-input Learning
+# A Study on Driver State Recognition using CNN-based Multimodal Multi-input Learning
 
 [![Project Status](https://img.shields.io/badge/status-completed-green)](https://shields.io)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
